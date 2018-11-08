@@ -46,7 +46,7 @@ sudo systemctl daemon-reload
 # Check for any warnings and attempt to resolve.
 sudo kubeadm init \
     -v 5 \
-    --kubernetes-version 1.11.2 \
+    --kubernetes-version 1.12.2 \
     --apiserver-advertise-address $IP \
     --apiserver-cert-extra-sans $IP \
     --service-dns-domain $DOMAIN \
